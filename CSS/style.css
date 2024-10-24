@@ -1,0 +1,121 @@
+table,
+thead,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 25px;
+    margin-top: 35px;
+}
+
+th {
+    text-align: center;
+    background-color: #999399;
+}
+
+table {
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 25px;
+    box-shadow: 15px 10px 10px #999399;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #dadbe4;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #999399;
+}
+
+h1 {
+    text-align: center;
+    color: #5f5b5b;
+    font-size: 380%;
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'dysl';
+    src: url("./OpenDyslexicAlta-Bold.");
+}
+
+* {
+    font-family: 'arial';
+    font-size: medium;
+}
+
+fieldset {
+    border-radius: 12px;
+    background-color: #ccc;
+    width: 35%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 15px 10px 10px #999399;
+    margin: auto;
+    border: 1px solid black;
+}
+
+label {
+
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 20px;
+    font-size: 130%;
+}
+
+input {
+    border-radius: 7px;
+    color: black;
+    border: 1px solid black;
+    height: 27px;
+
+}
+
+.btn-form {
+
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+h1 {
+    text-shadow: 3px 3px #999399;
+}
+
+.btn {
+    margin-left: 195px;
+    width: 7%;
+    height: 4%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.btn {
+
+    border: 2px solid #5d5e61;
+    box-shadow: 10px 5px 5px #6c6e70;
+
+    text-align: center;
+
+}
+
+.inp {
+    width: 350px;
+}
+
+a {
+
+    color: black;
+}
+ legend {
+    font-size: 160%;
+ }
+ .btn1
+{
+    border: 2px solid #5d5e61;
+    box-shadow: 5px 5px 5px #6c6e70;
+    border-radius: 3px;
+    background-color: #dad3d3;
+    
+}
